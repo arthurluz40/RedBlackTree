@@ -415,13 +415,11 @@ public class RedBlackTree {
     public static void main(String[] args) {
         RedBlackTree tree = new RedBlackTree();
 
-    tree.insert("D");
-    tree.insert("B");
-    tree.insert("A");
-    tree.insert("C");
-    tree.insert("F");
-    tree.insert("E");
-    tree.insert("G");
+     String[] letras = {"D", "B", "A", "C", "F", "E", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+
+    for(String letra : letras) {
+        tree.insert(letra);
+    }
 
     System.out.println("Árvore Rubro-Negra após inserções:");
     tree.printRedBlackTree(tree.root, "", true);
