@@ -427,7 +427,7 @@ public class RedBlackTree {
     System.out.println("Árvore Rubro-Negra após inserções:");
     tree.printRedBlackTree(tree.root, "", true);
 
-    /*System.out.println("\nRemovendo nó com chave 'A':");
+    System.out.println("\nRemovendo nó com chave 'A':");
     tree.delete("A");
     tree.printRedBlackTree(tree.root, "", true);
 
@@ -439,7 +439,7 @@ public class RedBlackTree {
     System.out.println(tree.findMin().key);
 
     System.out.println("\nNó Máximo:");
-    System.out.println(tree.findMax().key);*/
+    System.out.println(tree.findMax().key);
     }
 
     /**
