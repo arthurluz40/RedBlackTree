@@ -415,7 +415,10 @@ public class RedBlackTree {
     public static void main(String[] args) {
         RedBlackTree tree = new RedBlackTree();
 
-     String[] letras = {"D", "B", "A", "C", "F", "E", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+     String[] letras = {"Apple", "Banana", "Carrot", "Dolphin", "Elephant", "Frog", "Giraffe",
+             "Horse", "Iguana", "Jaguar", "Kangaroo", "Lion", "Monkey", "Nest", "Orange",
+             "Penguin", "Quokka", "Raccoon", "Snake", "Tiger", "Umbrella", "Vulture",
+             "Whale", "Xylophone", "Yak", "Zebra"};
 
     for(String letra : letras) {
         tree.insert(letra);
@@ -424,7 +427,7 @@ public class RedBlackTree {
     System.out.println("Árvore Rubro-Negra após inserções:");
     tree.printRedBlackTree(tree.root, "", true);
 
-    System.out.println("\nRemovendo nó com chave 'A':");
+    /*System.out.println("\nRemovendo nó com chave 'A':");
     tree.delete("A");
     tree.printRedBlackTree(tree.root, "", true);
 
@@ -436,7 +439,7 @@ public class RedBlackTree {
     System.out.println(tree.findMin().key);
 
     System.out.println("\nNó Máximo:");
-    System.out.println(tree.findMax().key);
+    System.out.println(tree.findMax().key);*/
     }
 
     /**
